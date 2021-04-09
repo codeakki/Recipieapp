@@ -25,3 +25,57 @@ color:rgb(57, 12, 219);
 .h3, h3 {
     font-size: 2.75rem;
 }
+
+.navbar{
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #d2d2d8;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(240, 221, 215, 0.735);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  }
+  
+
+  li a:hover {
+    background-color: rgba(31, 101, 206, 0.479);
+  }
+
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
