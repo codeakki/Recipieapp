@@ -4,3 +4,24 @@ body{
 .text-white:hover{
 color:rgb(57, 12, 219);
 }
+
+.col-3{
+    background-color:rgb(3, 30, 48);
+    
+
+}
+.col-3 {
+   
+    flex: 20 10 20%;
+    max-width: 50%;
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 2.2;
+    font-family:'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+}
+.h3, h3 {
+    font-size: 2.75rem;
+}
