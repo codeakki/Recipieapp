@@ -28,6 +28,8 @@ color:rgb(57, 12, 219);
 
 .navbar{
     padding-bottom: 10px;
+    display:block;
+    position:fixed;
 }
 ul {
     list-style-type: none;
@@ -54,10 +56,7 @@ ul {
     background-color: rgba(240, 221, 215, 0.735);
   }
   
-  li {
-    float: left;
-  }
-  
+   
   li a {
     display: block;
     color: rgb(12, 4, 4);
@@ -65,11 +64,12 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-  }
-  
+    background-color: #77b2ce;
+    
+}
 
   li a:hover {
-    background-color: rgba(31, 101, 206, 0.479);
+    background-color: rgba(136, 147, 163, 0.479);
   }
 
   li {
@@ -79,3 +79,39 @@ ul {
   li:last-child {
     border-right: none;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(47 112 208 / 59%);
+}
+.form-control {
+  display: block;
+  width: 185%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: 1.375rem 9.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 8.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 6px solid #500a67;
+  border-radius: 4.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fffcfc;
+  background-color: #801969;
+  border: 6px solid #6e146f;
+  border-radius: 29px;
+  padding: 10px 13px;
+  width: 42%;
+  font-size: 17px;
+  font-family: arial;
+}
+.button:hover{
+  color:white;
+}
